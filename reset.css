@@ -1,0 +1,67 @@
+/* Reset all elements to a baseline style */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove list styling */
+ol, ul {
+  list-style: none;
+}
+
+/* Remove quotes from blockquote and q */
+blockquote, q {
+  quotes: none;
+}
+
+/* Set text decoration to none for links */
+a {
+  text-decoration: none;
+}
+
+/* Set the default font size and family */
+body {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.6;
+}
+
+/* Remove table border spacing */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set image and video to be responsive */
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make sure form elements are consistent */
+input, button, textarea, select {
+  font: inherit;
+  border: none;
+  outline: none;
+}
+
+/* Remove default styles for form elements */
+input[type="radio"], input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* Normalize buttons */
+button {
+  background: none;
+  cursor: pointer;
+}
+
+/* Fix for some browsers' default styles for form elements */
+textarea {
+  resize: none;
+}

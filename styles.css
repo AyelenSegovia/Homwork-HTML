@@ -1,0 +1,128 @@
+
+
+.fondo {
+    background-color: rgb(18, 18, 192);
+}
+
+
+.title{
+    font-family:'Lucida Sans';
+    font-size: 1.5em;
+    color: white;
+    font-variant: small-caps;
+    margin: 10px;
+        
+}
+
+
+.noticias{
+    border: 2px solid rgb(71, 166, 230);
+    width: 60em;
+    padding: 1em 1em 1em 1em ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items:flex-start;
+
+}
+
+.notas{
+    font-family: 'Arial';
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items:flex-start;
+}
+
+.botones{
+    width: fit-content;
+    margin: 10px;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+
+.button {
+    width:fit-content;
+    border: 2px groove rgb(77, 23, 77) ;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+
+.button:hover {
+    background: rgb(11, 159, 185);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.fotos {
+
+    width: 30em;
+    height: 20em;
+
+}
+
+
+#portada{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#encabezado {
+    font-family:Georgia ;
+    font-size: 80px;
+    color:indianred;
+    width: 40vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}    
+
+#subencabezado{
+    font-size: 40px;
+    color:rgb(253, 253, 253);
+    width: 40vw;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#pic {
+    width: 85vw;
+    margin: auto;
+    margin-top: 2em;
+    border: 2px groove rgb(77, 23, 77) ;
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#pie:hover {
+    background: rgb(11, 159, 185);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    width: fit-content;
+    transition: 1s;
+}
